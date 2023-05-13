@@ -1,0 +1,46 @@
+{
+    "damage-threshold": {
+        "Colossal": 50,
+        "Gargantuan": 20,
+        "Huge": 10,
+        "Large": 5,
+        "Medium": 0,
+        "Small": 0,
+        "Tiny": 0,
+        "Diminuitive": 0,
+        "Fine": 0
+    },
+    "grapple": {
+        "Colossal": 20,
+        "Gargantuan": 15,
+        "Huge": 10,
+        "Large": 5,
+        "Medium": 0,
+        "Small": -5,
+        "Tiny": -10,
+        "Diminuitive": -15,
+        "Fine": -20
+    },
+    "reflex-defense": {
+        "Colossal": -10,
+        "Gargantuan": -5,
+        "Huge": -2,
+        "Large": -1,
+        "Medium": 0,
+        "Small": 1,
+        "Tiny": 2,
+        "Diminuitive": 5,
+        "Fine": 10
+    },
+    "stealth": {
+        "Colossal": -20,
+        "Gargantuan": -15,
+        "Huge": -10,
+        "Large": -5,
+        "Medium": 0,
+        "Small": 5,
+        "Tiny": 10,
+        "Diminuitive": 15,
+        "Fine": 20
+    }
+}

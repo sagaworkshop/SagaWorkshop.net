@@ -1,0 +1,112 @@
+{
+    "acrobatics": {
+        "name": "Acrobatics",
+        "modifier": "dex",
+        "armorCheck": true
+    },
+    "climb": {
+        "name": "Climb",
+        "modifier": "str",
+        "armorCheck": true
+    },
+    "deception": {
+        "name": "Deception",
+        "modifier": "cha"
+    },
+    "endurance": {
+        "name": "Endurance",
+        "modifier": "con",
+        "armorCheck": true
+    },
+    "gather-information": {
+        "name": "Gather Information",
+        "modifier": "cha"
+    },
+    "initiative": {
+        "name": "Initiative",
+        "modifier": "dex",
+        "armorCheck": true
+    },
+    "jump": {
+        "name": "Jump",
+        "modifier": "str",
+        "armorCheck": true
+    },
+    "knowledge-bureaucracy": {
+        "name": "Knowledge (Bureaucracy)",
+        "modifier": "int"
+    },
+    "knowledge-galactic-lore": {
+        "name": "Knowledge (Galactic Lore)",
+        "modifier": "int"
+    },
+    "knowledge-life-sciences": {
+        "name": "Knowledge (Life Sciences)",
+        "modifier": "int"
+    },
+    "knowledge-physical-sciences": {
+        "name": "Knowledge (Physical Sciences)",
+        "modifier": "int"
+    },
+    "knowledge-social-sciences": {
+        "name": "Knowledge (Social Sciences)",
+        "modifier": "int"
+    },
+    "knowledge-tactics": {
+        "name": "Knowledge (Tactics)",
+        "modifier": "int"
+    },
+    "knowledge-technology": {
+        "name": "Knowledge (Technology)",
+        "modifier": "int"
+    },
+    "mechanics": {
+        "name": "Mechanics",
+        "modifier": "int",
+        "trainedOnly": true
+    },
+    "perception": {
+        "name": "Perception",
+        "modifier": "wis"
+    },
+    "persuasion": {
+        "name": "Persuasion",
+        "modifier": "cha"
+    },
+    "pilot": {
+        "name": "Pilot",
+        "modifier": "dex"
+    },
+    "ride": {
+        "name": "Ride",
+        "modifier": "dex",
+        "armorCheck": true
+    },
+    "stealth": {
+        "name": "Stealth",
+        "modifier": "dex",
+        "armorCheck": true
+    },
+    "survival": {
+        "name": "Survival",
+        "modifier": "wis"
+    },
+    "swim": {
+        "name": "Swim",
+        "modifier": "str",
+        "armorCheck": true
+    },
+    "treat-injury": {
+        "name": "Treat Injury",
+        "modifier": "wis"
+    },
+    "use-computer": {
+        "name": "Use Computer",
+        "modifier": "int"
+    },
+    "use-the-force": {
+        "name": "Use the Force",
+        "modifier": "cha",
+        "requiresForceSensitivity": true
+    }
+}

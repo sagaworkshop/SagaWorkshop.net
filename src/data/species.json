@@ -1,0 +1,360 @@
+{
+    "human": {
+        "id": "human",
+        "name": "Human",
+        "size": "Medium",
+        "speed": 6,
+        "bonusSkill": true,
+        "bonusFeat": true,
+        "languages": ["Basic"]
+    },
+    "bothan": {
+        "id": "bothan",
+        "name": "Bothan",
+        "abilities": {
+            "con": -2,
+            "dex": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "iron-will"},
+            {"id": "skill-focus", "spec": "gather-information"}
+        ],
+        "languages": ["Basic", "Bothese"]
+    },
+    "cerean": {
+        "id": "cerean",
+        "name": "Cerean",
+        "abilities": {
+            "dex": -2,
+            "int": 2,
+            "wis": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "intuitive-initiative"},
+            {"id": "skill-focus", "spec": "initiative"}
+        ],
+        "languages": ["Basic", "Cerean"]
+    },
+    "chiss": {
+        "id": "chiss",
+        "name": "Chiss",
+        "abilities": {
+            "int": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "low-light-vision"}
+        ],
+        "bonusSkill": true,
+        "languages": ["Cheunh"]
+    },
+    "duros": {
+        "id": "duros",
+        "name": "Duros",
+        "abilities": {
+            "con": -2,
+            "dex": 2,
+            "int": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "expert-pilot"}
+        ],
+        "languages": ["Basic"]
+    },
+    "ewok": {
+        "id": "ewok",
+        "name": "Ewok",
+        "abilities": {
+            "dex": 2,
+            "str": -2
+        },
+        "size": "Small",
+        "speed": 4,
+        "features": [
+            {"id": "primitive"},
+            {"id": "scent"},
+            {"id": "sneaky"},
+            {"id": "skill-focus", "spec": "survival"}
+        ],
+        "languages": ["Ewokese (speak only)"]
+    },
+    "gamorrean": {
+        "id": "gamorrean",
+        "name": "Gamorrean",
+        "abilities": {
+            "dex": -2,
+            "int": -2,
+            "str": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "primitive"},
+            {"id": "great-fortitude"},
+            {"id": "improved-damage-threshold"}
+        ],
+        "languages": ["Basic (cannot speak)", "Gamorrean (speak only)"]
+    },
+    "gungan": {
+        "id": "gungan",
+        "name": "Gungan",
+        "abilities": {
+            "cha": -2,
+            "dex": 2,
+            "int": -2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "expert-swimmer"},
+            {"id": "hold-breath"},
+            {"id": "lightning-reflexes"},
+            {"id": "low-light-vision"},
+            {"id": "weapon-familiarity-simple-weapons", "spec": "atlatl"},
+            {"id": "weapon-familiarity-simple-weapons", "spec": "cesta"}
+        ],
+        "languages": ["Basic", "Gunganese"]
+    },
+    "ithorian": {
+        "id": "ithorian",
+        "name": "Ithorian",
+        "abilities": {
+            "cha": 2,
+            "dex": -2,
+            "wis": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "bellow"},
+            {"id": "iron-will"},
+            {"id": "survival-instinct"},
+            {"id": "skill-focus", "spec": "knowledge-life-sciences"}
+        ],
+        "languages": ["Basic", "Ithorese"]
+    },
+    "kel-dor": {
+        "id": "kel-dor",
+        "name": "Kel Dor",
+        "abilities": {
+            "con": -2,
+            "dex": 2,
+            "wis": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "keen-force-sense"},
+            {"id": "low-light-vision"},
+            {"id": "special-equipment-kel-dor"}
+        ],
+        "languages": ["Basic", "Kel Dor"]
+    },
+    "miraluka": {
+        "id": "miraluka",
+        "name": "Miraluka",
+        "abilities": {
+            "dex": -2,
+            "int": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "force-sight"},
+            {"id": "force-training"}
+        ],
+        "languages": ["Basic", "Miralukese"]
+    },
+    "mon-calamari": {
+        "id": "mon-calamari",
+        "name": "Mon Calamari",
+        "abilities": {
+            "con": -2,
+            "int": 2,
+            "wis": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "breathe-underwater"},
+            {"id": "expert-swimmer"},
+            {"id": "low-light-vision"},
+            {"id": "skill-focus", "spec": "perception"}
+        ],
+        "languages": ["Basic", "Mon Calamarian"]
+    },
+    "nautolan": {
+        "id": "nautolan",
+        "name": "Nautolan",
+        "abilities": {
+            "con": 2,
+            "int": -2,
+            "wis": -2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "breathe-underwater"},
+            {"id": "expert-swimmer"},
+            {"id": "low-light-vision"},
+            {"id": "natural-damage-reduction"},
+            {"id": "pheromonal-sensor"}
+        ],
+        "languages": ["Basic", "Nautila"]
+    },
+    "quarren": {
+        "id": "quarren",
+        "name": "Quarren",
+        "abilities": {
+            "cha": -2,
+            "con": 2,
+            "wis": -2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "breathe-underwater"},
+            {"id": "expert-swimmer"},
+            {"id": "low-light-vision"},
+            {"id": "skill-focus", "spec": "persuasion"}
+        ],
+        "languages": ["Basic", "Quarrenese"]
+    },
+    "rodian": {
+        "id": "rodian",
+        "name": "Rodian",
+        "abilities": {
+            "cha": -2,
+            "dex": 2,
+            "wis": -2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "heightened-awareness"},
+            {"id": "low-light-vision"},
+            {"id": "skill-focus", "spec": "survival"}
+        ],
+        "languages": ["Basic", "Rodese"]
+    },
+    "selkath": {
+        "id": "selkath",
+        "name": "Selkath",
+        "abilities": {
+            "cha": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "breathe-underwater"},
+            {"id": "expert-swimmer"},
+            {"id": "able-healer"}
+        ],
+        "languages": ["Selkath"]
+    },
+    "sullustan": {
+        "id": "sullustan",
+        "name": "Sullustan",
+        "abilities": {
+            "con": -2,
+            "dex": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "darkvision"},
+            {"id": "expert-climber"},
+            {"id": "heightened-awareness"}
+        ],
+        "languages": ["Basic", "Sullustese"]
+    },
+    "trandoshan": {
+        "id": "trandoshan",
+        "name": "Trandoshan",
+        "abilities": {
+            "dex": -2,
+            "str": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "darkvision"},
+            {"id": "limb-regeneration"},
+            {"id": "natural-armor-1"},
+            {"id": "toughness"}
+        ],
+        "languages": ["Basic", "Dosh"]
+    },
+    "twilek": {
+        "id": "twilek",
+        "name": "Twi'lek",
+        "abilities": {
+            "cha": 2,
+            "wis": -2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "deceptive"},
+            {"id": "great-fortitude"},
+            {"id": "low-light-vision"}
+        ],
+        "languages": ["Basic", "Ryl"]
+    },
+    "umbaran": {
+        "id": "umbaran",
+        "name": "Umbaran",
+        "abilities": {
+            "con": -2,
+            "dex": 2,
+            "wis": 2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "darkvision"},
+            {"id": "skill-focus", "spec": "gather-information"},
+            {"id": "stealthy"}
+        ],
+        "languages": ["Basic", "Umbarese"]
+    },
+    "wookiee": {
+        "id": "wookiee",
+        "name": "Wookiee",
+        "abilities": {
+            "cha": -2,
+            "con": 2,
+            "dex": -2,
+            "str": 4,
+            "wis": -2
+        },
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "expert-climber"},
+            {"id": "extraordinary-recuperation"},
+            {"id": "fearsome-reputation"},
+            {"id": "rage"},
+            {"id": "weapon-familiarity-rifles", "spec": "bowcaster"}
+        ],
+        "languages": ["Basic (cannot speak)", "Shyriiwook"]
+    },
+    "zabrak": {
+        "id": "zabrak",
+        "name": "Zabrak",
+        "size": "Medium",
+        "speed": 6,
+        "features": [
+            {"id": "heightened-awareness"},
+            {"id": "superior-defenses"}
+        ],
+        "languages": ["Basic", "Zabrak"]
+    }
+}

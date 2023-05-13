@@ -1,0 +1,44 @@
+{
+    "str": {
+        "id": "str",
+        "name": "Strength",
+        "description": [
+            "Strength measures your character's muscle and physical power. This ability is especially important for soldiers because it helps them prevail in physical combat."
+        ]
+    },
+    "dex": {
+        "id": "dex",
+        "name": "Dexterity",
+        "description": [
+            "Dexterity measures hand-eye coordination, agility, reflexes, and balance. This ability is the most important ability for scoundrels, but it's also high on the list for characters who want to be good shots with ranged weapons (such as blaster pistols) or who want to handle the controls of a starship or speeder fairly well."
+        ]
+    },
+    "con": {
+        "id": "con",
+        "name": "Constitution",
+        "description": [
+            "Constitution represents your character's health and stamina. Constitution adds to a hero's hit points, so it's important for everyone, but most important for soldiers and Jedi."
+        ]
+    },
+    "int": {
+        "id": "int",
+        "name": "Intelligence",
+        "description": [
+            "Intelligence determines how well your character learns and reasons. Intelligence is important for scouts, nobles, and any character who wants to have a wide assortment of skills."
+        ]
+    },
+    "wis": {
+        "id": "wis",
+        "name": "Wisdom",
+        "description": [
+            "Wisdom describes a character's willpower, common sense, perception, and intuition. Wisdom is related to being in tune with and aware of one's surroundings. Wisdom is the most important ability for scouts, but it's also important to characters wishing to be in-tune with their environment or characters who like to gamble."
+        ]
+    },
+    "cha": {
+        "id": "cha",
+        "name": "Charisma",
+        "description": [
+            "Charisma measures a character's force of personality, persuasiveness, personal magnetism, ability to lead, and physical attractiveness. It represents actual strength of personality and force of presence, not merely how others perceive you in a social setting. Charisma is most important for nobles and Jedi."
+        ]
+    }
+}

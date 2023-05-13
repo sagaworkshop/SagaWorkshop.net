@@ -1,0 +1,44 @@
+[
+    {
+        "index": 0,
+        "name": "Normal",
+        "defenses": 0,
+        "checks": 0,
+        "speedFactor": 1
+    },
+    {
+        "index": 1,
+        "name": -1,
+        "defenses": -1,
+        "checks": -1,
+        "speedFactor": 1
+    },
+    {
+        "index": 2,
+        "name": -2,
+        "defenses": -2,
+        "checks": -2,
+        "speedFactor": 1
+    },
+    {
+        "index": 3,
+        "name": -5,
+        "defenses": -5,
+        "checks": -5,
+        "speedFactor": 1
+    },
+    {
+        "index": 4,
+        "name": "-10",
+        "defenses": -10,
+        "checks": -10,
+        "speedFactor": 0.5
+    },
+    {
+        "index": 5,
+        "name": "Unconscious",
+        "defenses": 0,
+        "checks": 0,
+        "speedFactor": 0
+    }
+]

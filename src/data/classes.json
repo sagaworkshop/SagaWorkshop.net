@@ -1,0 +1,939 @@
+{
+    "jedi": {
+        "name": "Jedi",
+        "icon": "jedi.gif",
+        "fullBaseAttackBonus": true,
+        "startingHitPoints": 30,
+        "hitDie": 10,
+        "forcePoints": 5,
+        "defenseBonuses": [1, 1, 1],
+        "maxLevel": 20,
+        "baseSkills": 2,
+        "classSkills": [
+            "acrobatics",
+            "endurance",
+            "initiative",
+            "jump",
+            "knowledge-bureaucracy",
+            "knowledge-galactic-lore",
+            "knowledge-life-sciences",
+            "knowledge-physical-sciences",
+            "knowledge-social-sciences",
+            "knowledge-tactics",
+            "knowledge-technology",
+            "mechanics",
+            "perception",
+            "pilot",
+            "use-the-force"
+        ],
+        "trees": {
+            "bonus": ["jedi-bonus", "jedi-starting"],
+            "starting": ["jedi-starting"],
+            "talent": ["jedi-consular", "jedi-guardian", "jedi-sentinel", "lightsaber-combat"]
+        },
+        "features": [
+            [{"id": "lightsaber"}]
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "jedi"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "jedi"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "jedi"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "jedi"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "jedi"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "jedi"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "jedi"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "jedi"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "jedi"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "jedi"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "jedi"}]
+        ]
+    },
+    "noble": {
+        "name": "Noble",
+        "icon": "noble.gif",
+        "fullBaseAttackBonus": false,
+        "startingHitPoints": 18,
+        "hitDie": 6,
+        "forcePoints": 5,
+        "defenseBonuses": [1, 0, 2],
+        "maxLevel": 20,
+        "baseSkills": 6,
+        "classSkills": [
+            "deception",
+            "gather-information",
+            "initiative",
+            "knowledge-bureaucracy",
+            "knowledge-galactic-lore",
+            "knowledge-life-sciences",
+            "knowledge-physical-sciences",
+            "knowledge-social-sciences",
+            "knowledge-tactics",
+            "knowledge-technology",
+            "perception",
+            "persuasion",
+            "pilot",
+            "ride",
+            "treat-injury",
+            "use-computer"
+        ],
+        "trees": {
+            "bonus": ["noble-bonus", "noble-starting"],
+            "starting": ["noble-starting"],
+            "talent": ["influence", "inspiration", "leadership", "lineage"]
+        },
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "noble"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "noble"}],
+            [{"id": "talent", "name": "talent", "classId": "noble"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "noble"}],
+            [{"id": "talent", "name": "talent", "classId": "noble"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "noble"}],
+            [{"id": "talent", "name": "talent", "classId": "noble"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "noble"}],
+            [{"id": "talent", "name": "talent", "classId": "noble"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "noble"}],
+            [{"id": "talent", "name": "talent", "classId": "noble"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "noble"}],
+            [{"id": "talent", "name": "talent", "classId": "noble"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "noble"}],
+            [{"id": "talent", "name": "talent", "classId": "noble"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "noble"}],
+            [{"id": "talent", "name": "talent", "classId": "noble"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "noble"}],
+            [{"id": "talent", "name": "talent", "classId": "noble"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "noble"}]
+        ]
+    },
+    "scoundrel": {
+        "name": "Scoundrel",
+        "icon": "scoundrel.gif",
+        "fullBaseAttackBonus": false,
+        "startingHitPoints": 18,
+        "hitDie": 6,
+        "forcePoints": 5,
+        "defenseBonuses": [2, 0, 1],
+        "baseSkills": 4,
+        "classSkills": [
+            "acrobatics",
+            "deception",
+            "gather-information",
+            "initiative",
+            "knowledge-bureaucracy",
+            "knowledge-galactic-lore",
+            "knowledge-life-sciences",
+            "knowledge-physical-sciences",
+            "knowledge-social-sciences",
+            "knowledge-tactics",
+            "knowledge-technology",
+            "mechanics",
+            "perception",
+            "persuasion",
+            "pilot",
+            "stealth",
+            "use-computer"
+        ],
+        "trees": {
+            "bonus": ["scoundrel-bonus", "scoundrel-starting"],
+            "starting": ["scoundrel-starting"],
+            "talent": ["fortune", "misfortune", "outlaw-tech", "slicer", "spacer"]
+        },
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "scoundrel"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scoundrel"}],
+            [{"id": "talent", "name": "talent", "classId": "scoundrel"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scoundrel"}],
+            [{"id": "talent", "name": "talent", "classId": "scoundrel"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scoundrel"}],
+            [{"id": "talent", "name": "talent", "classId": "scoundrel"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scoundrel"}],
+            [{"id": "talent", "name": "talent", "classId": "scoundrel"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scoundrel"}],
+            [{"id": "talent", "name": "talent", "classId": "scoundrel"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scoundrel"}],
+            [{"id": "talent", "name": "talent", "classId": "scoundrel"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scoundrel"}],
+            [{"id": "talent", "name": "talent", "classId": "scoundrel"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scoundrel"}],
+            [{"id": "talent", "name": "talent", "classId": "scoundrel"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scoundrel"}],
+            [{"id": "talent", "name": "talent", "classId": "scoundrel"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scoundrel"}]
+        ]
+    },
+    "scout": {
+        "name": "Scout",
+        "icon": "scout.gif",
+        "fullBaseAttackBonus": false,
+        "startingHitPoints": 24,
+        "hitDie": 8,
+        "forcePoints": 5,
+        "defenseBonuses": [2, 1, 0],
+        "baseSkills": 5,
+        "classSkills": [
+            "climb",
+            "endurance",
+            "initiative",
+            "jump",
+            "knowledge-bureaucracy",
+            "knowledge-galactic-lore",
+            "knowledge-life-sciences",
+            "knowledge-physical-sciences",
+            "knowledge-social-sciences",
+            "knowledge-tactics",
+            "knowledge-technology",
+            "mechanics",
+            "perception",
+            "pilot",
+            "ride",
+            "stealth",
+            "survival",
+            "swim"
+        ],
+        "trees": {
+            "bonus": ["scout-bonus", "scout-starting"],
+            "starting": ["scout-starting"],
+            "talent": ["awareness", "camouflage", "fringer", "survivor"]
+        },
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "scout"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scout"}],
+            [{"id": "talent", "name": "talent", "classId": "scout"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scout"}],
+            [{"id": "talent", "name": "talent", "classId": "scout"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scout"}],
+            [{"id": "talent", "name": "talent", "classId": "scout"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scout"}],
+            [{"id": "talent", "name": "talent", "classId": "scout"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scout"}],
+            [{"id": "talent", "name": "talent", "classId": "scout"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scout"}],
+            [{"id": "talent", "name": "talent", "classId": "scout"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scout"}],
+            [{"id": "talent", "name": "talent", "classId": "scout"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scout"}],
+            [{"id": "talent", "name": "talent", "classId": "scout"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scout"}],
+            [{"id": "talent", "name": "talent", "classId": "scout"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "scout"}]
+        ]
+    },
+    "soldier": {
+        "name": "Soldier",
+        "icon": "soldier.gif",
+        "fullBaseAttackBonus": true,
+        "startingHitPoints": 30,
+        "hitDie": 10,
+        "forcePoints": 5,
+        "defenseBonuses": [1, 2, 0],
+        "baseSkills": 3,
+        "classSkills": [
+            "climb",
+            "endurance",
+            "initiative",
+            "jump",
+            "knowledge-tactics",
+            "mechanics",
+            "perception",
+            "pilot",
+            "swim",
+            "treat-injury",
+            "use-computer"
+        ],
+        "trees": {
+            "bonus": ["soldier-bonus", "soldier-starting"],
+            "starting": ["soldier-starting"],
+            "talent": [
+                "ambusher", "armor-specialist", "brawler", "commando", "mercenary", "rocket-jumper", "weapon-specialist"
+            ]
+        },
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "soldier"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "soldier"}],
+            [{"id": "talent", "name": "talent", "classId": "soldier"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "soldier"}],
+            [{"id": "talent", "name": "talent", "classId": "soldier"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "soldier"}],
+            [{"id": "talent", "name": "talent", "classId": "soldier"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "soldier"}],
+            [{"id": "talent", "name": "talent", "classId": "soldier"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "soldier"}],
+            [{"id": "talent", "name": "talent", "classId": "soldier"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "soldier"}],
+            [{"id": "talent", "name": "talent", "classId": "soldier"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "soldier"}],
+            [{"id": "talent", "name": "talent", "classId": "soldier"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "soldier"}],
+            [{"id": "talent", "name": "talent", "classId": "soldier"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "soldier"}],
+            [{"id": "talent", "name": "talent", "classId": "soldier"}],
+            [{"id": "bonus", "name": "bonus feat", "classId": "soldier"}]
+        ]
+    },
+    "ace-pilot": {
+        "name": "Ace Pilot",
+        "icon": "ace-pilot.jpg",
+        "fullBaseAttackBonus": false,
+        "hitDie": 8,
+        "forcePoints": 6,
+        "defenseBonuses": [4, 2, 0],
+        "maxLevels": 10,
+        "requirements": {
+            "features": [
+                {"id": "vehicular-combat"}
+            ],
+            "level": 7,
+            "trainedSkills": ["pilot"]
+        },
+        "trees": {
+            "talent": ["expert-pilot", "gunner", "spacer"]
+        },
+        "features": [
+            [],
+            [{"id": "vehicle-dodge"}],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "ace-pilot"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "ace-pilot"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "ace-pilot"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "ace-pilot"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "ace-pilot"}],
+            []
+        ]
+    },
+    "bounty-hunter": {
+        "name": "Bounty Hunter",
+        "icon": "bounty-hunter.gif",
+        "fullBaseAttackBonus": true,
+        "hitDie": 10,
+        "forcePoints": 6,
+        "defenseBonuses": [4, 2, 0],
+        "maxLevels": 10,
+        "requirements": {
+            "level": 7,
+            "talents": {
+                "count": 2,
+                "trees": ["awareness"]
+            },
+            "trainedSkills": ["survival"]
+        },
+        "trees": {
+            "talent": ["awareness", "bounty-hunter", "misfortune"]
+        },
+        "features": [
+            [],
+            [{"id": "familiar-foe"}],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "bounty-hunter"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "bounty-hunter"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "bounty-hunter"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "bounty-hunter"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "bounty-hunter"}],
+            []
+        ]
+    },
+    "crime-lord": {
+        "name": "Crime Lord",
+        "icon": "crime-lord.gif",
+        "fullBaseAttackBonus": false,
+        "hitDie": 8,
+        "forcePoints": 6,
+        "defenseBonuses": [2, 0, 4],
+        "maxLevels": 10,
+        "requirements": {
+            "level": 7,
+            "talents": {
+                "count": 1,
+                "trees": ["fortune", "lineage", "misfortune"]
+            },
+            "trainedSkills": ["deception", "persuasion"]
+        },
+        "trees": {
+            "talent": ["infamy", "influence", "mastermind"]
+        },
+        "features": [
+            [],
+            [{"id": "command-cover"}],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "crime-lord"}],
+            [{"id": "talent", "name": "talent", "classId": "crime-lord"}],
+            [{"id": "talent", "name": "talent", "classId": "crime-lord"}],
+            [{"id": "talent", "name": "talent", "classId": "crime-lord"}],
+            [{"id": "talent", "name": "talent", "classId": "crime-lord"}],
+            [{"id": "talent", "name": "talent", "classId": "crime-lord"}],
+            [{"id": "talent", "name": "talent", "classId": "crime-lord"}],
+            [{"id": "talent", "name": "talent", "classId": "crime-lord"}],
+            [{"id": "talent", "name": "talent", "classId": "crime-lord"}],
+            [{"id": "talent", "name": "talent", "classId": "crime-lord"}]
+        ]
+    },
+    "elite-trooper": {
+        "name": "Elite Trooper",
+        "icon": "elite-trooper.gif",
+        "fullBaseAttackBonus": true,
+        "hitDie": 12,
+        "forcePoints": 6,
+        "defenseBonuses": [2, 4, 0],
+        "maxLevels": 10,
+        "requirements": {
+            "baseAttackBonus": 7,
+            "features": [
+                {"id": "armor-proficiency-light"},
+                {"id": "armor-proficiency-medium"},
+                {"id": "martial-arts-i"},
+                {"id": "point-blank-shot"}
+            ],
+            "talents": {
+                "count": 1,
+                "trees": ["armor-specialist", "commando", "critical-master", "mercenary", "weapon-specialist"]
+            }
+        },
+        "trees": {
+            "talent": ["camouflage", "commando", "mandalorian-warrior", "weapon-master"]
+        },
+        "features": [
+            [{"id": "delay-damage"}],
+            [{"id": "damage-reduction"}],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "elite-trooper"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "elite-trooper"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "elite-trooper"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "elite-trooper"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "elite-trooper"}],
+            []
+        ]
+    },
+    "force-adept": {
+        "name": "Force Adept",
+        "icon": "force-adept.gif",
+        "fullBaseAttackBonus": false,
+        "hitDie": 8,
+        "forcePoints": 6,
+        "defenseBonuses": [2, 2, 4],
+        "maxLevels": 10,
+        "requirements": {
+            "features": [
+                {"id": "force-sensitivity"}
+            ],
+            "level": 7,
+            "talents": {
+                "count": 3,
+                "force": true
+            },
+            "trainedSkills": ["use-the-force"]
+        },
+        "trees": {
+            "talent": ["dark-side-devotee", "force-adept", "force-item"]
+        },
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "force-adept"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "force-adept"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "force-adept"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "force-adept"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "force-adept"}],
+            [{"id": "force-technique", "name": "Force technique"}]
+        ]
+    },
+    "force-disciple": {
+        "name": "Force Disciple",
+        "icon": "force-disciple.gif",
+        "fullBaseAttackBonus": false,
+        "hitDie": 8,
+        "forcePoints": 7,
+        "defenseBonuses": [3, 3, 6],
+        "maxLevels": 5,
+        "requirements": {
+            "features": [
+                {"id": "farseeing"},
+                {"id": "force-sensitivity"}
+            ],
+            "forceTechniques": 1,
+            "level": 12,
+            "talents": {
+                "count": 2,
+                "trees": ["dark-side-devotee", "force-adept", "force-item"]
+            },
+            "trainedSkills": ["use-the-force"]
+        },
+        "trees": {
+            "talent": ["force-adept"]
+        },
+        "features": [
+            [{"id": "indomitable-force-disciple"}, {"id": "prophet"}],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "force-disciple"}],
+            [{"id": "force-secret", "name": "Force secret"}],
+            [
+                {"id": "talent", "name": "talent", "classId": "force-disciple"},
+                {"id": "force-secret", "name": "Force secret"}
+            ],
+            [{"id": "force-secret", "name": "Force secret"}],
+            [
+                {"id": "talent", "name": "talent", "classId": "force-disciple"},
+                {"id": "force-secret", "name": "Force secret"}
+            ]
+        ]
+    },
+    "gladiator": {
+        "name": "Gladiator",
+        "icon": "gladiator.gif",
+        "fullBaseAttackBonus": true,
+        "hitDie": 10,
+        "forcePoints": 6,
+        "defenseBonuses": [4, 2, 0],
+        "maxLevels": 10,
+        "requirements": {
+            "features": [
+                {"id": "improved-damage-threshold"},
+                {"id": "weapon-proficiency", "spec": "advanced-melee-weapons"}
+            ],
+            "level": 7
+        },
+        "trees": {
+            "talent": ["armor-specialist", "awareness", "gladiatorial-combat"]
+        },
+        "features": [
+            [],
+            [{"id": "unflinching"}],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "gladiator"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "gladiator"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "gladiator"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "gladiator"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "gladiator"}],
+            []
+        ]
+    },
+    "gunslinger": {
+        "name": "Gunslinger",
+        "icon": "gunslinger.jpg",
+        "fullBaseAttackBonus": true,
+        "hitDie": 8,
+        "forcePoints": 6,
+        "defenseBonuses": [4, 0, 2],
+        "maxLevels": 10,
+        "requirements": {
+            "features": [
+                {"id": "point-blank-shot"},
+                {"id": "precise-shot"},
+                {"id": "quick-draw"},
+                {"id": "weapon-proficiency", "spec": "pistols"}
+            ],
+            "level": 7
+        },
+        "trees": {
+            "talent": ["awareness", "fortune", "gunslinger", "pistoleer"]
+        },
+        "features": [
+            [],
+            [{"id": "trusty-sidearm"}],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "gunslinger"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "gunslinger"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "gunslinger"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "gunslinger"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "gunslinger"}],
+            []
+        ]
+    },
+    "imperial-knight": {
+        "name": "Imperial Knight",
+        "icon": "imperial-knight.gif",
+        "fullBaseAttackBonus": true,
+        "hitDie": 10,
+        "forcePoints": 6,
+        "defenseBonuses": [2, 2, 2],
+        "maxLevels": 10,
+        "requirements": {
+            "baseAttackBonus": 7,
+            "features": [
+                {"id": "armor-proficiency-light"},
+                {"id": "armor-proficiency-medium"},
+                {"id": "force-sensitivity"},
+                {"id": "weapon-proficiency", "spec": "lightsabers"}
+            ],
+            "trainedSkills": ["use-the-force"]
+        },
+        "trees": {
+            "talent": ["armor-specialist", "lightsaber-combat", "duelist", "knights-armor", "knights-resolve"]
+        },
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "imperial-knight"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "imperial-knight"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "imperial-knight"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "imperial-knight"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "imperial-knight"}],
+            [{"id": "force-technique", "name": "Force technique"}]
+        ]
+    },
+    "droid-independent": {
+        "name": "Independent Droid",
+        "icon": "droid-independent.gif",
+        "fullBaseAttackBonus": false,
+        "hitDie": 12,
+        "forcePoints": 6,
+        "defenseBonuses": [2, 0, 4],
+        "maxLevels": 10,
+        "requirements": {
+            "level": 3,
+            "trainedSkills": ["use-computer"]
+        },
+        "trees": {
+            "talent": ["autonomy", "specialized-droid"]
+        },
+        "features": [
+            [{"id": "sapience"}],
+            [{"id": "independent-spirit"}],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "droid-independent"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "droid-independent"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "droid-independent"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "droid-independent"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "droid-independent"}],
+            []
+        ]
+    },
+    "jedi-knight": {
+        "name": "Jedi Knight",
+        "icon": "jedi-knight.gif",
+        "fullBaseAttackBonus": true,
+        "hitDie": 10,
+        "forcePoints": 6,
+        "defenseBonuses": [2, 2, 2],
+        "maxLevels": 10,
+        "requirements": {
+            "baseAttackBonus": 7,
+            "features": [
+                {"id": "force-sensitivity"},
+                {"id": "weapon-proficiency", "spec": "lightsabers"}
+            ],
+            "trainedSkills": ["use-the-force"]
+        },
+        "trees": {
+            "talent": ["armor-specialist", "lightsaber-combat", "duelist", "lightsaber-forms"]
+        },
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "jedi-knight"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi-knight"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi-knight"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi-knight"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "jedi-knight"}],
+            [{"id": "force-technique", "name": "Force technique"}]
+        ]
+    },
+    "jedi-master": {
+        "name": "Jedi Master",
+        "icon": "jedi-master.gif",
+        "fullBaseAttackBonus": true,
+        "hitDie": 10,
+        "forcePoints": 7,
+        "defenseBonuses": [3, 3, 3],
+        "maxLevels": 5,
+        "requirements": {
+            "features": [
+                {"id": "force-sensitivity"},
+                {"id": "weapon-proficiency", "spec": "lightsabers"}
+            ],
+            "forceTechniques": 1,
+            "level": 12,
+            "trainedSkills": ["use-the-force"]
+        },
+        "trees": {
+            "talent": ["duelist"]
+        },
+        "features": [
+            [{"id": "fearless"}, {"id": "serenity"}],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "jedi-master"}],
+            [{"id": "force-secret", "name": "Force secret"}],
+            [
+                {"id": "talent", "name": "talent", "classId": "jedi-master"},
+                {"id": "force-secret", "name": "Force secret"}
+            ],
+            [{"id": "force-secret", "name": "Force secret"}],
+            [
+                {"id": "talent", "name": "talent", "classId": "jedi-master"},
+                {"id": "force-secret", "name": "Force secret"}
+            ]
+        ]
+    },
+    "master-privateer": {
+        "name": "Master Privateer",
+        "icon": "master-privateer.gif",
+        "fullBaseAttackBonus": true,
+        "hitDie": 10,
+        "forcePoints": 6,
+        "defenseBonuses": [2, 0, 4],
+        "maxLevels": 10,
+        "requirements": {
+            "features": [
+                {"id": "vehicular-combat"}
+            ],
+            "level": 7,
+            "talents": {
+                "count": 2,
+                "trees": ["misfortune", "smuggling", "spacer"]
+            },
+            "trainedSkills": ["deception", "pilot"]
+        },
+        "trees": {
+            "talent": ["infamy", "piracy", "privateer", "spacer"]
+        },
+        "features": [
+            [],
+            [{"id": "veteran-privateer"}],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "master-privateer"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "master-privateer"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "master-privateer"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "master-privateer"}],
+            [],
+            [{"id": "talent", "name": "talent", "classId": "master-privateer"}],
+            []
+        ]
+    },
+    "officer": {
+        "name": "Officer",
+        "icon": "officer.gif",
+        "fullBaseAttackBonus": true,
+        "hitDie": 8,
+        "forcePoints": 6,
+        "defenseBonuses": [2, 0, 4],
+        "maxLevels": 10,
+        "requirements": {
+            "level": 7,
+            "talents": {
+                "count": 1,
+                "trees": ["commando", "leadership"]
+            },
+            "trainedSkills": ["knowledge-tactics"]
+        },
+        "trees": {
+            "talent": ["commando", "leadership", "military-tactics"]
+        },
+        "features": [
+            [],
+            [{"id": "command-cover"}],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "officer"}],
+            [{"id": "share-talent", "name": "shared talent"}],
+            [{"id": "talent", "name": "talent", "classId": "officer"}],
+            [{"id": "share-talent", "name": "shared talent"}],
+            [{"id": "talent", "name": "talent", "classId": "officer"}],
+            [{"id": "share-talent", "name": "shared talent"}],
+            [{"id": "talent", "name": "talent", "classId": "officer"}],
+            [{"id": "share-talent", "name": "shared talent"}],
+            [{"id": "talent", "name": "talent", "classId": "officer"}],
+            [{"id": "share-talent", "name": "shared talent"}]
+        ]
+    },
+    "sith-apprentice": {
+        "name": "Sith Apprentice",
+        "icon": "sith-apprentice.gif",
+        "fullBaseAttackBonus": true,
+        "hitDie": 10,
+        "forcePoints": 6,
+        "defenseBonuses": [2, 2, 2],
+        "maxLevels": 10,
+        "requirements": {
+            "darkSide": true,
+            "features": [
+                {"id": "force-sensitivity"},
+                {"id": "weapon-proficiency", "spec": "lightsabers"}
+            ],
+            "level": 7,
+            "trainedSkills": ["use-the-force"]
+        },
+        "trees": {
+            "talent": ["armor-specialist", "lightsaber-combat", "duelist", "sith"]
+        },
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "sith-apprentice"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "sith-apprentice"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "sith-apprentice"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "sith-apprentice"}],
+            [{"id": "force-technique", "name": "Force technique"}],
+            [{"id": "talent", "name": "talent", "classId": "sith-apprentice"}],
+            [{"id": "force-technique", "name": "Force technique"}]
+        ]
+    },
+    "sith-lord": {
+        "name": "Sith Lord",
+        "icon": "sith-lord.jpg",
+        "fullBaseAttackBonus": true,
+        "hitDie": 10,
+        "forcePoints": 7,
+        "defenseBonuses": [3, 3, 3],
+        "maxLevels": 5,
+        "requirements": {
+            "darkSide": true,
+            "features": [
+                {"id": "force-sensitivity"},
+                {"id": "weapon-proficiency", "spec": "lightsabers"}
+            ],
+            "forceTechniques": 1,
+            "level": 12,
+            "trainedSkills": ["use-the-force"]
+        },
+        "trees": {
+            "talent": ["sith"]
+        },
+        "features": [
+            [{"id": "fearless"}, {"id": "temptation"}],
+            [],
+            [],
+            [],
+            []
+        ],
+        "choices": [
+            [{"id": "talent", "name": "talent", "classId": "sith-lord"}],
+            [{"id": "force-secret", "name": "Force secret"}],
+            [
+                {"id": "talent", "name": "talent", "classId": "sith-lord"},
+                {"id": "force-secret", "name": "Force secret"}
+            ],
+            [{"id": "force-secret", "name": "Force secret"}],
+            [{"id": "talent", "name": "talent", "classId": "sith-lord"}, {"id": "force-secret", "name": "Force secret"}]
+        ]
+    }
+}

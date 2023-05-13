@@ -1,0 +1,829 @@
+{
+    "alter": {
+        "name": "Alter",
+        "description": ["The Force grants you considerable power over your environment as well as others around you."],
+        "icon": "telekinetic-power",
+        "force": true,
+        "features": [
+            {"id": "disciplined-strike"},
+            {"id": "telekinetic-power"},
+            {"id": "telekinetic-savant"}
+        ]
+    },
+    "ambusher": {
+        "name": "Ambusher",
+        "description": ["You specialize in springing ambushes on your enemies."],
+        "icon": "ambush-specialist",
+        "features": [
+            {"id": "ambush-specialist"},
+            {"id": "destructive-ambusher"},
+            {"id": "keep-it-going"},
+            {"id": "keep-them-reeling"},
+            {"id": "perceptive-ambusher"},
+            {"id": "spring-the-trap"}
+        ]
+    },
+    "armor-specialist": {
+        "name": "Armor Specialist",
+        "description": [
+            "You can maximize the benefits of wearing armor while reducing or eliminating some of its drawbacks."
+        ],
+        "icon": "armored-defense",
+        "features": [
+            {"id": "armor-mastery"},
+            {"id": "armored-defense"},
+            {"id": "improved-armored-defense"},
+            {"id": "juggernaut"},
+            {"id": "second-skin"}
+        ]
+    },
+    "autonomy": {
+        "name": "Autonomy",
+        "description": ["You are able to resist any attempts to curb your independence and can fight back against anyone that tries to suppress your personality."],
+        "icon": "modification-specialist",
+        "features": [
+            {"id": "defensive-electronics"},
+            {"id": "ion-resistance-10"},
+            {"id": "soft-reset"},
+            {"id": "modification-specialist"},
+            {"id": "repair-self"}
+        ]
+    },
+    "awareness": {
+        "name": "Awareness",
+        "description": ["You are exceptionally good at noticing things and avoiding perilous situations."],
+        "icon": "acute-senses",
+        "features": [
+            {"id": "acute-senses"},
+            {"id": "expert-tracker"},
+            {"id": "improved-initiative"},
+            {"id": "keen-shot"},
+            {"id": "uncanny-dodge-i"},
+            {"id": "uncanny-dodge-ii"}
+        ]
+    },
+    "bounty-hunter": {
+        "name": "Bounty Hunter",
+        "description": ["The nature of their work requires bounty hunters to associate with the scum of the universe. You are among the finest bounty hunters in the galaxy, relying on the element of surprise and your hunter's instincts to catch your prey."],
+        "icon": "hunters-target",
+        "features": [
+            {"id": "hunters-mark"},
+            {"id": "hunters-target"},
+            {"id": "jedi-hunter"},
+            {"id": "notorious"},
+            {"id": "nowhere-to-hide"},
+            {"id": "relentless"},
+            {"id": "ruthless-negotiator"}
+        ]
+    },
+    "brawler": {
+        "name": "Brawler",
+        "description": ["You like to get \"up close and personal\" with your enemies and engage them in melee combat."],
+        "icon": "expert-grappler",
+        "features": [
+            {"id": "expert-grappler"},
+            {"id": "gun-club"},
+            {"id": "melee-smash"},
+            {"id": "stunning-strike"},
+            {"id": "unbalance-opponent"}
+        ]
+    },
+    "camouflage": {
+        "name": "Camouflage",
+        "description": ["You learn quickly how to blend in with your environment"],
+        "icon": "hidden-movement",
+        "features": [
+            {"id": "hidden-movement"},
+            {"id": "improved-stealth"},
+            {"id": "total-concealment"}
+        ]
+    },
+    "commando": {
+        "name": "Commando",
+        "description": [
+            "You use advanced combat tactics to take down enemies quickly, shield your comrades, and endure whatever challenges are thrown your way."
+        ],
+        "icon": "indomitable",
+        "features": [
+            {"id": "battle-analysis"},
+            {"id": "cover-fire"},
+            {"id": "demolitionist"},
+            {"id": "draw-fire"},
+            {"id": "harms-way"},
+            {"id": "indomitable"},
+            {"id": "tough-as-nails"}
+        ]
+    },
+    "control": {
+        "name": "Control",
+        "description": [
+            "You have learned how to regulate your own body systems, control your emotions, and channel the Force."
+        ],
+        "force": true,
+        "icon": "force-focus",
+        "features": [
+            {"id": "damage-reduction-10"},
+            {"id": "equilibrium"},
+            {"id": "force-focus"},
+            {"id": "force-recovery"}
+        ]
+    },
+    "dark-side": {
+        "name": "Dark Side",
+        "description": [
+            "The path to the dark side of the Force is the quick and easy path, granting amazing power but forever dominating the destinies of those in its grasp.",
+            "You must have a Dark Side Score of 1 or higher to select talents from this tree; if your Dark Side Score is ever reduced to 0, you lose access to all talents in this talent tree until your Dark Side Score increases."
+        ],
+        "force": true,
+        "icon": "revenge",
+        "features": [
+            {"id": "power-of-the-dark-side"},
+            {"id": "dark-presence"},
+            {"id": "revenge"},
+            {"id": "swift-power"}
+        ]
+    },
+    "dathomiri-witch": {
+        "name": "Dathomiri Witch",
+        "description": [
+            "The Force-using witches of the planet Dathomir are primitive yet powerful beings. They use ancient training handed down for generations as the basis of their powers."
+        ],
+        "force": true,
+        "features": [
+            {"id": "adept-spellcaster"},
+            {"id": "charm-beast"},
+            {"id": "command-beast"},
+            {"id": "flight"}
+        ]
+    },
+    "duelist": {
+        "name": "Duelist",
+        "description": [
+            "Through rigorous training and experience, you become one of the greatest swordfighters in the galaxy."
+        ],
+        "icon": "multiattack-proficiency-lightsabers",
+        "features": [
+            {"id": "force-fortification"},
+            {"id": "greater-weapon-focus", "spec": "lightsabers"},
+            {"id": "greater-weapon-specialization-lightsabers"},
+            {"id": "multiattack-proficiency-lightsabers"},
+            {"id": "severing-strike"}
+        ]
+    },
+    "critical-master": {
+        "name": "Critical Master",
+        "description": "Some elite troopers know exactly where to strike their foes to deal maximum damage, potentially crippling their enemies in the process.",
+        "icon": "triple-crit",
+        "features": [
+            {"id": "extended-critical-range-rifles"}
+        ]
+    },
+    "feat": {
+        "name": "Feats",
+        "description": [
+            "A feat is a special feature that either gives your character a new capability or improves one he or she already has. Unlike skills and talents, your choice of feats is not restricted by your class. Any character can take any feat as long as the prerequisites are met."
+        ],
+        "type": "feat"
+    },
+    "fencing": {
+        "name": "Fencing",
+        "description": [
+            "In the days of the Old Republic, the fine art of swordplay was stylish among nobles. A particular style arose mixing martial precision with forceful panache."
+        ],
+        "features": [
+            {"id": "demoralizing-defense"},
+            {"id": "leading-feint"},
+            {"id": "noble-fencing-style"},
+            {"id": "personal-affront"},
+            {"id": "transposing-strike"}
+        ]
+    },
+    "force-power": {
+        "name": "Force Powers",
+        "description": [
+            "Force powers are special abilities available to anyone who takes the Force Training feat. They allow characters to do astonishing things such as play tricks with the minds of others, move heavy objects, see into the future, and even blast foes with terrible arcs of lightning."
+        ],
+        "type": "force-power"
+    },
+    "force-secret": {
+        "name": "Force Secrets",
+        "description": [
+            "Skilled Force-users can learn to manipulate their Force powers in intriguing ways. Force secrets represent a sublime connection to the Force and are usually available only to powerful Force-users such as Force disciples, Jedi Masters, and Sith Lords.",
+            "Activating a Force secret costs either a Force Point or a Destiny Point (as noted in its description), and the normal limits on spending Force Points and Destiny Points during a round apply."
+        ],
+        "type": "force-secret"
+    },
+    "force-technique": {
+        "name": "Force Techniques",
+        "description": [
+            "Force techniques represent a deeper understanding of the Force and, like martial skills, usually come with years of practice. A few gifted or devoted Force-users learn to master them more quickly. In general, Force techniques are only available to characters with levels in certain Force-using prestige classes (such as the Force adept, Jedi Knight, and Sith apprentice)."
+        ],
+        "type": "force-technique"
+    },
+    "fortune": {
+        "name": "Fortune",
+        "description": [
+            "Many scoundrels like to gamble with destiny, putting everything on the line and trusting fate (or the Force) to bring them fortune, fame, and success."
+        ],
+        "icon": "lucky-shot",
+        "features": [
+            {"id": "fools-luck"},
+            {"id": "fortunes-favor"},
+            {"id": "gambler"},
+            {"id": "knack"},
+            {"id": "lucky-shot"},
+            {"id": "uncanny-luck"}
+        ]
+    },
+    "fringer": {
+        "name": "Fringer",
+        "description": ["You're especially skilled at \"getting by\" on backwater worlds."],
+        "icon": "jury-rigger",
+        "features": [
+            {"id": "barter"},
+            {"id": "fringe-savant"},
+            {"id": "long-stride"},
+            {"id": "jury-rigger"}
+        ]
+    },
+    "gladiatorial-combat": {
+        "name": "Gladiatorial Combat",
+        "description": [
+            "You have learned the tricks of fighting in the gladiatorial arena. These talents represent your knowledge of this specialized combination of combat and showmanship."
+        ],
+        "icon": "armored-mandalorian",
+        "features": [
+            {"id": "brutal-attack"},
+            {"id": "call-out"},
+            {"id": "distracting-attack"},
+            {"id": "exotic-weapons-master"},
+            {"id": "lockdown-strike"},
+            {"id": "multiattack-proficiency-exotic-weapons"},
+            {"id": "personal-vendetta"},
+            {"id": "unstoppable"}
+        ]
+    },
+    "gunslinger": {
+        "name": "Gunslinger",
+        "description": [
+            "You never travel anywhere without a blaster (or two), and you know how to handle yourself in a gunfight. The following talents may only be used with pistols and rifles."
+        ],
+        "icon": "multiattack-proficiency-pistols",
+        "features": [
+            {"id": "debilitating-shot"},
+            {"id": "deceptive-shot"},
+            {"id": "improved-quick-draw"},
+            {"id": "knockdown-shot"},
+            {"id": "mobile-attack-pistols"},
+            {"id": "multiattack-proficiency-pistols"},
+            {"id": "ranged-disarm"},
+            {"id": "trigger-work"}
+        ]
+    },
+    "infamy": {
+        "name": "Infamy",
+        "description": ["You are wanted in multiple systems for criminal acts, and your manner of doing business has earned you an unsavory reputation in the criminal underworld."],
+        "icon": "shared-notoriety",
+        "features": [
+            {"id": "inspire-fear-i"},
+            {"id": "inspire-fear-ii"},
+            {"id": "inspire-fear-iii"},
+            {"id": "notorious"},
+            {"id": "shared-notoriety"}
+        ]
+    },
+    "influence": {
+        "name": "Influence",
+        "description": ["One of your greatest strengths is your ability to exert influence over your opponents."],
+        "icon": "presence",
+        "features": [
+            {"id": "presence"},
+            {"id": "demand-surrender"},
+            {"id": "improved-weaken-resolve"},
+            {"id": "weaken-resolve"}
+        ]
+    },
+    "inspiration": {
+        "name": "Inspiration",
+        "description": [
+            "Nobles are renowned for their ability to inspire their followers and urge them to greatness. You can often get results out of your friends, allies, and followers that other leaders cannot.",
+            "All of the talents in this tree are mind-affecting effects. Moreover, you can't use any of these talents on yourself."
+        ],
+        "icon": "inspire-confidence",
+        "features": [
+            {"id": "bolster-ally"},
+            {"id": "inspire-confidence"},
+            {"id": "inspire-haste"},
+            {"id": "inspire-zeal"}
+        ]
+    },
+    "jedi-consular": {
+        "name": "Jedi Consular",
+        "description": [
+            "Jedi that follow the path of the consular are skilled negotiators and talented ambassadors. You prefer to use the strength of your words and the wisdom that the Force provides to solve conflicts."
+        ],
+        "icon": "adept-negotiator",
+        "features": [
+            {"id": "adept-negotiator"},
+            {"id": "force-persuasion"},
+            {"id": "master-negotiator"},
+            {"id": "skilled-advisor"}
+        ]
+    },
+    "jedi-guardian": {
+        "name": "Jedi Guardian",
+        "description": [
+            "Jedi that follow the path of the guardian are more combat-oriented than other Jedi, honing their skills to become deadly combatants."
+        ],
+        "icon": "resilience",
+        "features": [
+            {"id": "acrobatic-recovery"},
+            {"id": "battle-meditation"},
+            {"id": "elusive-target"},
+            {"id": "force-intuition"},
+            {"id": "resilience"}
+        ]
+    },
+    "jedi-sentinel": {
+        "name": "Jedi Sentinel",
+        "description": [
+            "The Jedi that follow the path of the sentinel are the true enemies of the dark side, hunting down evil and stopping the spread of darkness wherever they go. You are a master of subtlety and difficult to tempt with the dark side even when constantly confronted with its power."
+        ],
+        "icon": "resist-the-dark-side",
+        "features": [
+            {"id": "clear-mind"},
+            {"id": "dark-side-sense"},
+            {"id": "dark-side-scourge"},
+            {"id": "force-haze"},
+            {"id": "resist-the-dark-side"}
+        ]
+    },
+    "jensaarai-defender": {
+        "name": "Jensaarai Defender",
+        "description": [
+            "The Jensaarai walk a thin line between light and darkness, using the teachings of both the Jedi and the Sith to create their own unique traditions. Only Force-users that are part of the Jensaarai tradition may select talents from this tree."
+        ],
+        "force": true,
+        "features": [
+            {"id": "attune-armor"},
+            {"id": "force-cloak"},
+            {"id": "force-cloak-mastery"},
+            {"id": "linked-defense"}
+        ]
+    },
+    "knights-armor": {
+        "name": "Knight's Armor",
+        "description": ["You are a skilled master of the Force who knows how to get the most out of your armor."],
+        "icon": "armor-mastery-imperial-knight",
+        "features": [
+            {"id": "armor-mastery-imperial-knight"}
+        ]
+    },
+    "leadership": {
+        "name": "Leadership",
+        "description": [
+            "A born leader, you know how to take charge and lead your companions and followers to success.",
+            "All of the talents in this tree are mind-affecting effects. Moreover, you can't use any of these talents on yourself."
+        ],
+        "icon": "born-leader",
+        "features": [
+            {"id": "born-leader"},
+            {"id": "coordinate"},
+            {"id": "distant-command"},
+            {"id": "fearless-leader"},
+            {"id": "rally"},
+            {"id": "trust"}
+        ]
+    },
+    "lightsaber-combat": {
+        "name": "Lightsaber Combat",
+        "description": [
+            "The lightsaber is the chosen weapon of the Jedi. Not as clumsy or random as a blaster, the lightsaber is an elegant weapon for a more civilized combatant. The following talents allow you to improve your prowess with a lightsaber."
+        ],
+        "icon": "block",
+        "features": [
+            {"id": "block"},
+            {"id": "deflect"},
+            {"id": "lightsaber-defense"},
+            {"id": "weapon-specialization", "spec": "lightsabers"},
+            {"id": "lightsaber-throw"},
+            {"id": "redirect-shot"}
+        ]
+    },
+    "lightsaber-forms": {
+        "name": "Lightsaber Forms",
+        "description": [
+            "You have refined your knowledge of lightsaber technique, your blade becoming an extension of your self. Anyone using a lightsaber may use one of these forms, but you have the discipline and patience to become a true master of the form."
+        ],
+        "icon": "makashi",
+        "features": [
+            {"id": "ataru"},
+            {"id": "djem-so"},
+            {"id": "jarkai"},
+            {"id": "juyo"},
+            {"id": "makashi"},
+            {"id": "niman"},
+            {"id": "shien"},
+            {"id": "shii-cho"},
+            {"id": "sokan"},
+            {"id": "soresu"},
+            {"id": "trakata"},
+            {"id": "vaapad"}
+        ]
+    },
+    "lineage": {
+        "name": "Lineage",
+        "description": [
+            "You lead a privileged life and reap the benefit of an upbringing beyond most citizens of the galaxy."
+        ],
+        "icon": "wealth",
+        "features": [
+            {"id": "connections"},
+            {"id": "educated"},
+            {"id": "engineer"},
+            {"id": "spontaneous-skill"},
+            {"id": "wealth"}
+        ]
+    },
+    "mandalorian-warrior": {
+        "name": "Mandalorian Warrior",
+        "description": [
+            "Mandalorians are talented and ferocious warriors. Their skillful training, warrior culture, and advanced combat abilities make them formidable foes in any era. The following talents are particularly suited to the <em>Knights of the Old Republic</em> era."
+        ],
+        "icon": "mandalorian-ferocity",
+        "features": [
+            {"id": "armored-mandalorian"},
+            {"id": "mandalorian-advance"},
+            {"id": "mandalorian-ferocity"},
+            {"id": "mandalorian-glory"}
+        ]
+    },
+    "mastermind": {
+        "name": "Mastermind",
+        "description": ["You have the ability to attract loyal minions and are skilled at redirecting allies on the battlefield."],
+        "icon": "attract-minion",
+        "features": [
+            {"id": "attract-minion"},
+            {"id": "impel-ally-i"},
+            {"id": "impel-ally-ii"}
+        ]
+    },
+    "mercenary": {
+        "name": "Mercenary",
+        "description": ["Mercenaries are blasters-for-hire who sell their services to the highest bidder. Though money might motivate them, few types of soldiers are more capable of operating independently."],
+        "icon": "notorious",
+        "features": [
+            {"id": "commanding-presence"}
+        ]
+    },
+    "misfortune": {
+        "name": "Misfortune",
+        "description": ["Your mother always said you were trouble. Now, your enemies know it, too."],
+        "icon": "disruptive",
+        "features": [
+            {"id": "dastardly-strike"},
+            {"id": "disruptive"},
+            {"id": "skirmisher"},
+            {"id": "sneak-attack"},
+            {"id": "walk-the-line"}
+        ]
+    },
+    "outlaw-tech": {
+        "name": "Outlaw Tech",
+        "description": [
+            "Scoundrels learn a variety of tricks that allow them to squeeze more life out of ailing technology, enhancing their gear in ways the manufacturer never intended."
+        ],
+        "icon": "hot-wire",
+        "features": [
+            {"id": "fast-repairs"},
+            {"id": "hot-wire"},
+            {"id": "quick-fix"},
+            {"id": "personalized-modifications"}
+        ]
+    },
+    "pistoleer": {
+        "name": "Pistoleer",
+        "description": ["You are a master of wielding two pistols at the same time, and can use both pistols simultaneously in unusual ways."],
+        "icon": "dash-and-blast",
+        "features": [
+            {"id": "dash-and-blast"},
+            {"id": "flanking-fire"},
+            {"id": "guaranteed-shot"},
+            {"id": "hailfire"},
+            {"id": "twin-shot"}
+        ]
+    },
+    "privateer": {
+        "name": "Privateer",
+        "description": ["You are a veteran of privateering and have learned the secrets of fighting aboard starships."],
+        "icon": "blaster-and-blade-iii",
+        "features": [
+            {"id": "armored-spacer"},
+            {"id": "attract-privateer"},
+            {"id": "blaster-and-blade-i"},
+            {"id": "blaster-and-blade-ii"},
+            {"id": "blaster-and-blade-iii"},
+            {"id": "boarder"},
+            {"id": "ion-mastery"},
+            {"id": "multiattack-proficiency-advanced-melee-weapons"},
+            {"id": "preserving-shot"}
+        ]
+    },
+    "rocket-jumper": {
+        "name": "Rocket Jumper",
+        "description": [
+            "You are an expert in the use of jet packs. You can use this form of transport to perform specialized aerial assaults and maneuvers."
+        ],
+        "icon": "improved-trajectory",
+        "features": [
+            {"id": "burning-assault"},
+            {"id": "improved-trajectory"},
+            {"id": "jet-pack-training"},
+            {"id": "jet-pack-withdraw"}
+        ]
+    },
+    "sense": {
+        "name": "Sense",
+        "description": ["Your attunement to the Force grants you uncanny powers of perception."],
+        "force": true,
+        "icon": "visions",
+        "features": [
+            {"id": "force-perception"},
+            {"id": "force-pilot"},
+            {"id": "force-reflexes"},
+            {"id": "foresight"},
+            {"id": "gauge-force-potential"},
+            {"id": "visions"}
+        ]
+    },
+    "slicer": {
+        "name": "Slicer",
+        "description": [
+            "You move like a ghost through the HoloNet and can hack into enemy mainframes and computer systems with astonishing grace."
+        ],
+        "icon": "trace",
+        "features": [
+            {"id": "gimmick"},
+            {"id": "master-slicer"},
+            {"id": "trace"}
+        ]
+    },
+    "spacer": {
+        "name": "Spacer",
+        "description": [
+            "You prowl the space lanes seeking wealth, fame, adventure, or something more. You're also pretty good with vehicles in general."
+        ],
+        "icon": "spacehound",
+        "features": [
+            {"id": "hyperdriven"},
+            {"id": "spacehound"},
+            {"id": "starship-raider"},
+            {"id": "stellar-warrior"}
+        ]
+    },
+    "specialized-droid": {
+        "name": "Specialized Droid",
+        "description": ["You have become more specialized than other droids of the same or similar model."],
+        "icon": "power-surge",
+        "features": [
+            {"id": "computer-language"},
+            {"id": "computer-master"},
+            {"id": "enhanced-manipulation"},
+            {"id": "hotwired-processor"},
+            {"id": "power-surge"},
+            {"id": "skill-conversion"}
+        ]
+    },
+    "starship-maneuvers": {
+        "name": "Starship Maneuvers",
+        "description": [
+            "Starship maneuvers are available to any character who takes the Starship Tactics feat. They allow a pilot or gunner to do something beyond the bounds of the Pilot skill and the abilities provided by the ace pilot prestige class. Starship maneuvers enhance attacks, strengthen defenses, reduce damage, or produce other unique effects."
+        ],
+        "type": "starship-maneuver"
+    },
+    "survivor": {
+        "name": "Survivor",
+        "description": [
+            "As an explorer of dangerous places, you are trained to react to danger swiftly and adroitly, as well as navigate difficult terrain and reduce damage."
+        ],
+        "icon": "evasion",
+        "features": [
+            {"id": "evasion"},
+            {"id": "extreme-effort"},
+            {"id": "sprint"},
+            {"id": "surefooted"}
+        ]
+    },
+    "weapon-master": {
+        "name": "Weapon Master",
+        "description": [
+            "You are skilled at wielding a variety of weapons and can wield choice weapons with deadly precision and force."
+        ],
+        "icon": "exotic-weapon-mastery",
+        "features": [
+            {"id": "controlled-burst"},
+            {"id": "exotic-weapon-mastery"},
+            {"id": "greater-devastating-attack"},
+            {"id": "greater-penetrating-attack"},
+            {"id": "greater-weapon-focus"},
+            {"id": "greater-weapon-specialization"},
+            {"id": "multiattack-proficiency-heavy-weapons"},
+            {"id": "multiattack-proficiency-rifles"}
+        ]
+    },
+    "weapon-specialist": {
+        "name": "Weapon Specialist",
+        "description": ["You are highly trained at using specific weapons."],
+        "icon": "weapon-focus",
+        "features": [
+            {"id": "devastating-attack"},
+            {"id": "penetrating-attack"},
+            {"id": "weapon-specialization"}
+        ]
+    },
+    "jedi-starting": {
+        "name": "Jedi starting feats",
+        "features": [
+            {"id": "force-sensitivity"},
+            {"id": "weapon-proficiency", "spec": "lightsabers"},
+            {"id": "weapon-proficiency", "spec": "simple-weapons"}
+        ]
+    },
+    "noble-starting": {
+        "name": "Noble starting feats",
+        "features": [
+            {"id": "linguist"},
+            {"id": "weapon-proficiency", "spec": "pistols"},
+            {"id": "weapon-proficiency", "spec": "simple-weapons"}
+        ]
+    },
+    "scoundrel-starting": {
+        "name": "Scoundrel starting feats",
+        "features": [
+            {"id": "point-blank-shot"},
+            {"id": "weapon-proficiency", "spec": "pistols"},
+            {"id": "weapon-proficiency", "spec": "simple-weapons"}
+        ]
+    },
+    "scout-starting": {
+        "name": "Scout starting feats",
+        "features": [
+            {"id": "shake-it-off"},
+            {"id": "weapon-proficiency", "spec": "pistols"},
+            {"id": "weapon-proficiency", "spec": "rifles"},
+            {"id": "weapon-proficiency", "spec": "simple-weapons"}
+        ]
+    },
+    "soldier-starting": {
+        "name": "Soldier starting feats",
+        "features": [
+            {"id": "armor-proficiency-light"},
+            {"id": "armor-proficiency-medium"},
+            {"id": "weapon-proficiency", "spec": "pistols"},
+            {"id": "weapon-proficiency", "spec": "rifles"},
+            {"id": "weapon-proficiency", "spec": "simple-weapons"}
+        ]
+    },
+    "jedi-bonus": {
+        "name": "Jedi bonus feats",
+        "features": [
+            {"id": "accelerated-strike"},
+            {"id": "acrobatic-strike"},
+            {"id": "cleave"},
+            {"id": "combat-reflexes"},
+            {"id": "dodge"},
+            {"id": "double-attack"},
+            {"id": "dual-weapon-mastery-i"},
+            {"id": "dual-weapon-mastery-ii"},
+            {"id": "dual-weapon-mastery-iii"},
+            {"id": "great-cleave"},
+            {"id": "improved-charge"},
+            {"id": "improved-disarm"},
+            {"id": "martial-arts-i"},
+            {"id": "martial-arts-ii"},
+            {"id": "martial-arts-iii"},
+            {"id": "melee-defense"},
+            {"id": "mobility"},
+            {"id": "quick-draw"},
+            {"id": "power-attack"},
+            {"id": "powerful-charge"},
+            {"id": "rapid-strike"},
+            {"id": "running-attack"},
+            {"id": "skill-focus"},
+            {"id": "skill-training"},
+            {"id": "strong-in-the-force"},
+            {"id": "triple-attack"},
+            {"id": "triple-crit"},
+            {"id": "weapon-finesse"},
+            {"id": "weapon-focus", "spec": "lightsabers"}
+        ]
+    },
+    "noble-bonus": {
+        "name": "Noble bonus feats",
+        "features": [
+            {"id": "armor-proficiency-light"},
+            {"id": "cybernetic-surgery"},
+            {"id": "exotic-weapon-proficiency"},
+            {"id": "linguist"},
+            {"id": "melee-defense"},
+            {"id": "skill-focus"},
+            {"id": "skill-training"},
+            {"id": "surgical-expertise"},
+            {"id": "weapon-finesse"},
+            {"id": "weapon-proficiency", "spec": "advanced-melee-weapons"},
+            {"id": "weapon-proficiency", "spec": "rifles"}
+        ]
+    },
+    "scoundrel-bonus": {
+        "name": "Scoundrel bonus feats",
+        "features": [
+            {"id": "deadeye"},
+            {"id": "dodge"},
+            {"id": "melee-defense"},
+            {"id": "mobility"},
+            {"id": "precise-shot"},
+            {"id": "quick-draw"},
+            {"id": "rapid-shot"},
+            {"id": "running-attack"},
+            {"id": "skill-focus"},
+            {"id": "skill-training"},
+            {"id": "vehicular-combat"},
+            {"id": "weapon-proficiency", "spec": "advanced-melee-weapons"},
+            {"id": "zero-range"}
+        ]
+    },
+    "scout-bonus": {
+        "name": "Scout bonus feats",
+        "features": [
+            {"id": "armor-proficiency-light"},
+            {"id": "armor-proficiency-medium"},
+            {"id": "armor-proficiency-heavy"},
+            {"id": "careful-shot"},
+            {"id": "deadeye"},
+            {"id": "dodge"},
+            {"id": "far-shot"},
+            {"id": "linguist"},
+            {"id": "mobility"},
+            {"id": "point-blank-shot"},
+            {"id": "precise-shot"},
+            {"id": "rapid-shot"},
+            {"id": "running-attack"},
+            {"id": "skill-focus"},
+            {"id": "skill-training"},
+            {"id": "sniper"},
+            {"id": "vehicular-combat"},
+            {"id": "weapon-proficiency", "spec": "advanced-melee-weapons"}
+        ]
+    },
+    "soldier-bonus": {
+        "name": "Soldier bonus feats",
+        "features": [
+            {"id": "accelerated-strike"},
+            {"id": "armor-proficiency-heavy"},
+            {"id": "bantha-rush"},
+            {"id": "careful-shot"},
+            {"id": "charging-fire"},
+            {"id": "cleave"},
+            {"id": "combat-reflexes"},
+            {"id": "coordinated-attack"},
+            {"id": "crush"},
+            {"id": "deadeye"},
+            {"id": "double-attack"},
+            {"id": "dual-weapon-mastery-i"},
+            {"id": "dual-weapon-mastery-ii"},
+            {"id": "dual-weapon-mastery-iii"},
+            {"id": "exotic-weapon-proficiency"},
+            {"id": "far-shot"},
+            {"id": "great-cleave"},
+            {"id": "improved-charge"},
+            {"id": "improved-disarm"},
+            {"id": "martial-arts-i"},
+            {"id": "martial-arts-ii"},
+            {"id": "martial-arts-iii"},
+            {"id": "melee-defense"},
+            {"id": "mighty-swing"},
+            {"id": "pin"},
+            {"id": "point-blank-shot"},
+            {"id": "power-attack"},
+            {"id": "precise-shot"},
+            {"id": "quick-draw"},
+            {"id": "rapid-shot"},
+            {"id": "rapid-strike"},
+            {"id": "running-attack"},
+            {"id": "shake-it-off"},
+            {"id": "skill-focus"},
+            {"id": "skill-training"},
+            {"id": "sniper"},
+            {"id": "throw"},
+            {"id": "toughness"},
+            {"id": "trip"},
+            {"id": "triple-attack"},
+            {"id": "triple-crit"},
+            {"id": "vehicular-combat"},
+            {"id": "weapon-focus"},
+            {"id": "weapon-proficiency", "spec": "advanced-melee-weapons"},
+            {"id": "weapon-proficiency", "spec": "heavy-weapons"},
+            {"id": "zero-range"}
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "hit-points": {
+        "id": "hit-points",
+        "name": "Total Hit Points",
+        "description": [
+            "Each character can withstand a certain amount of damage before falling unconscious or dying. This ability to take damage and keep on functioning is represented by the character's hit points."
+        ]
+    },
+    "reflex": {
+        "id": "reflex",
+        "name": "Reflex Defense",
+        "description": [
+            "Your Reflex Defense (Ref) represents how hard you are to hit in combat, and most attacks target a creature's Reflex Defense. If an opponent's attack roll equals or exceeds your Reflex Defense, the attack hits."
+        ]
+    },
+    "flat-footed": {
+        "id": "flat-footed",
+        "name": "Reflex Defense (Flat-Footed)",
+        "description": [
+            "If you are flat-footed or unaware of an attack, you lose your Dexterity bonus (but not a penalty) to your Reflex Defense. If you are helpless (for example, knocked unconscious), calculate your Reflex Defense as if you had a Dexterity score of 0 (-5 modifier)."
+        ]
+    },
+    "fortitude": {
+        "id": "fortitude",
+        "name": "Fortitude Defense",
+        "description": [
+            "Your Fortitude Defense (Fort) represents your ability to resist the effects of poison, disease, and radiation, as well as your ability to ignore effects that would incapacitate a normal being."
+        ]
+    },
+    "will": {
+        "id": "will",
+        "name": "Will Defense",
+        "description": [
+            "Your Will Defense (Will) represents your willpower and your ability to resist certain Force powers and other effects that attack your mind."
+        ]
+    },
+    "damage-reduction": {
+        "id": "damage-reduction",
+        "name": "Damage Reduction",
+        "description": [
+            "A creature or object with damage reduction (DR) ignores a certain amount of damage from every attack. The amount of damage it ignores is always indicated; for example, an object with DR 10 ignores the first 10 points of damage from each attack.",
+            "Damage reduction is sometimes bypassed by one or more specific damage types (noted after the DR value). For example, a creature with DR 5/energy ignores 5 points of damage from any source except one that deals energy damage (such as from a blaster). Similarly, a creature with DR 10/piercing or slashing ignores 10 points of damage from any source except one that deals piercing or slashing damage.",
+            "Certain talents grant damage reduction. When a character with multiple types of damage reduction takes damage, use whatever damage reduction value most benefits the character, based on the type of damage. For example, if a character with DR 1 and DR 10/energy is struck by a blaster, it's better for the character to apply his DR 1 against the attack (since DR 10/energy is bypassed by a blaster).",
+            "<strong>Lightsabers:</strong> Lightsabers ignore damage reduction unless specifically noted otherwise."
+        ]
+    },
+    "damage-threshold": {
+        "id": "damage-threshold",
+        "name": "Damage Threshold",
+        "description": [
+            "Attacks that deal massive amounts of damage can impair or incapacitate you regardless of how many hit points you have remaining. Your damage threshold determines how much damage a single attack must deal to reduce your combat effectiveness, or in some cases, kill you."
+        ]
+    }
+}
